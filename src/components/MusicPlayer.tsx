@@ -11,6 +11,11 @@ export const MusicPlayer = () => {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.3
+      audioRef.current.play().then(() => {
+        setIsPlaying(true)
+      }).catch(() => {
+        // Autoplay blocked, user needs to click
+      })
     }
   }, [])
 
@@ -136,6 +141,7 @@ export const MusicPlayer = () => {
 
       <audio
         ref={audioRef}
+        autoPlay
         loop
         src="/romantic/Ngày Đầu Tiên.mp3"
       />
