@@ -2,13 +2,14 @@
   "name": "romantic",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://khanhtb1306.github.io/romantic/",
   "scripts": {
     "dev": "vite",
     "start": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
     "@types/canvas-confetti": "^1.9.0",
@@ -29,6 +30,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
     "postcss": "^8.4.32",
     "postcss-import": "^15.1.0",

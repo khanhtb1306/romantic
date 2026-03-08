@@ -15,9 +15,9 @@ export const config = {
   
   // Couple photos
   couplePhotos: {
-    him: '/image/him.jpg',
-    her: '/image/her.jpg',
-    together: '/image/ngay_gap_nhau.jpg',
+    him: '/romantic/image/him.jpg',
+    her: '/romantic/image/her.jpg',
+    together: '/romantic/image/ngay_gap_nhau.jpg',
   },
   
   // Photo gallery - Ảnh kỷ niệm
@@ -26,37 +26,37 @@ export const config = {
       id: 1,
       title: 'Ngày gặp nhau',
       date: '2021-11-21',
-      image: '/image/ngay_gap_nhau.jpg',
+      image: '/romantic/image/ngay_gap_nhau.jpg',
     },
     {
       id: 2,
       title: 'Tam Đảo',
       date: '2022-04-28',
-      image: '/image/tam_dao.jpg',
+      image: '/romantic/image/tam_dao.jpg',
     },
     {
       id: 3,
       title: 'Cát Bà',
       date: '2022-08-17',
-      image: '/image/cat_ba.jpg',
+      image: '/romantic/image/cat_ba.jpg',
     },
     {
       id: 4,
       title: 'Gặp lại sau 2 năm',
       date: '2024-07-12',
-      image: '/image/gap_lai_sau_2_nam.jpg',
+      image: '/romantic/image/gap_lai_sau_2_nam.jpg',
     },
     {
       id: 5,
       title: 'Ninh Bình',
       date: '2025-10-03',
-      image: '/image/ninh_binh.jpg',
+      image: '/romantic/image/ninh_binh.jpg',
     },
     {
       id: 6,
       title: 'Kỷ niệm',
       date: '2024-07-15',
-      image: '/image/z7594487423185_aeca65413a62ed3a45f814df2bf0650a.jpg',
+      image: '/romantic/image/z7594487423185_aeca65413a62ed3a45f814df2bf0650a.jpg',
     },
   ],
   

@@ -137,7 +137,7 @@ export const MusicPlayer = () => {
       <audio
         ref={audioRef}
         loop
-        src="/Ngày Đầu Tiên.mp3"
+        src="/romantic/Ngày Đầu Tiên.mp3"
       />
     </>
   )

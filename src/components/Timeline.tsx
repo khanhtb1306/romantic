@@ -3,13 +3,13 @@ import { config } from '../config'
 import { useRef } from 'react'
 
 const timelineImages = [
-  '/image/ngay_gap_nhau.jpg',
-  '/image/tam_dao_1.jpg',
-  '/image/cat_ba.jpg',
-  '/image/gap_lai_sau_2_nam.jpg',
-  '/image/nha_trang.jpg',
-  '/image/ninh_binh.jpg',
-  '/image/sapa.jpg',
+  '/romantic/image/ngay_gap_nhau.jpg',
+  '/romantic/image/tam_dao_1.jpg',
+  '/romantic/image/cat_ba.jpg',
+  '/romantic/image/gap_lai_sau_2_nam.jpg',
+  '/romantic/image/nha_trang.jpg',
+  '/romantic/image/ninh_binh.jpg',
+  '/romantic/image/sapa.jpg',
 ]
 
 export const Timeline = () => {
